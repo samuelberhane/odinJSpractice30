@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(88, 45, 45);
+  color: #fff;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.key {
+  margin: 30px;
+  padding: 20px 60px;
+  background-color: #77692c;
+  transition: all 0.2s;
+}
+
+.playing {
+  transform: scale(1a);
+  border-color: red;
+  background-color: rgb(32, 54, 54);
+  box-shadow: 3px 3px 10px;
+}
+
+kbd {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+span {
+  text-transform: uppercase;
+}
